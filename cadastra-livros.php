@@ -5,20 +5,19 @@ if (!$conn){
 }
 
 //receba os dados do formulário 
-$nome = $_POST['nome'];
-$dtnasc = $_POST['DtNasc'];
-$celular = $_POST['Celular'];
-$email = $_POST['Email'];
-$ra = $_POST['RA'];
-$endereco =$_POST['Endereço'];
-$num_end = $_POST['Num_End'];
-$bairro =$_POST['Bairro'];
-$cidade =$_POST['Cidade'];
+$titulo = $_POST['Titulo'];
+$autor = $_POST['Autor'];
+$editora = $_POST['Editora'];
+$sinopse = $_POST['Sinopse'];
+$anopublicacao = $_POST['AnoPublicacao'];
+$genero =$_POST['Genero'];
+$paginas = $_POST['Paginas'];
+
 
 // criar variáveis para inserir o resistro
-$sql ="INSERT INTO `leitores`
-(`Nome`, `DtNasc`, `Celular`, `Email`, `RA`, `Endereco`, `NumEnd`, `Bairro`, `CidadeUF`) VALUES 
-('$nome','$dtnasc','$celular','$email','$ra','$endereco','$num_end','$bairro', '$cidade')";
+$sql ="INSERT INTO `livros`
+(`Titulo`, `Autor`, `Editora`, `Sinopse`, `AnoPublicacao`, `Genero`, `Paginas`) VALUES 
+('$titulo','$autor','$editora','$sinopse','$anopublicacao','$genero','$paginas')";
 
 // Executa a consulta SQL. falhar, exibe o erro do banco de dados
 $query = mysqli_query(mysql: $conn,query: $sql) or
