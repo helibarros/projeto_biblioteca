@@ -1,12 +1,13 @@
 body{
     text-align: center;
-    background: linear-gradient( #ffa4e8, #bd06ba);
+    background-color:#b1ffdf;
+    background-image: url(background-index.jpg);
     font-size: 23px; 
     width: auto;
-    height: 100vh;
+    
 }
 button {
-    background-color:  #59417a; 
+    background-color: #008563; 
     color: white; 
     padding: 10px 20px; 
     border: none;
@@ -14,8 +15,16 @@ button {
     cursor: pointer; 
 }
 h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;  
-    color: #050305;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif; 
+    color: #000000;
+}
+h2 {
+        font-family: Roboto, sans-serif; 
+        color: #000000;
+}
+h3 {
+    font-family: Roboto, sans-serif; 
+    color: #000000;
 }
 input {
     padding: 5px 10px; 
@@ -37,3 +46,4 @@ label {
     border-radius: 16px;
 
 }
+

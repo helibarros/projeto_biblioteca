@@ -1,3 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cdastra leitores</title>
+    <link rel="stylesheet" href="style-leitores.css">
+</head>
+<body>
+
+<h1>CONFIRMAÇÃO DE CADASTRO</h1>
+
+
 <?php
 include "config.php";
 if (!$conn){
@@ -26,12 +39,25 @@ die(mysqli_error(mysql: $conn));
 
 if($query){
     echo "<center>";
-    echo "Cadrasto realizado com sucesso!! <br>";
-    echo "<a href='index.php'><button title='Home pago'>Voltar<button></a>";
+    echo "<p>PARABÉNS!!!! Cadastro realizado com sucesso!! </p><br>";
+    echo "<p>";
+    echo "NOME: " . $nome ."<br>";
+    echo "DATA NASCIMENTO: ". $dtnasc."<br>";
+    echo " CELULAR: ". $celular."<br>";
+    echo " E-MAIL: ". $email."<br>";
+    echo "RA:".  $ra."<br>";
+    echo "ENDEREÇO: " . $endereco. ", " . $num_end."<br>";
+    echo " BAIRRO: " . $bairro."<br>";
+    echo "CIDADE ". $cidade."<br>";
+    echo "</p>";
+    echo "<a href='index.html'><button title='Home pago'>Voltar</button></a>";
     echo "</center>";
 } else {
  echo "<center>";
- echo "<a href='index.php'><button title='Home pago'>Voltar<button></a>";
+ echo "<p>Não foi possível realizar o cadastro!! </p><br>";
+ echo "<a href='index.html'><button title='Home pago'>Voltar</button></a>";
  echo "</center>";
 }
  ?>      
+ </body>
+</html>
