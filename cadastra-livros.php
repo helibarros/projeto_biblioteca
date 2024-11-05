@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cdastra leitores</title>
-    <link rel="stylesheet" href="style-livros.css">
+    <link rel="stylesheet" href="style-todos.css">
+    <a href="index.html"><button title="Voltar ao início">Home</button></a>
 </head>
 <body>
 

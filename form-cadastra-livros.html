@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cdastra leitores</title>
-    <link rel="stylesheet" href="style-livros.css">
+    <link rel="stylesheet" href="style-todos.css">
+  
 </head>
 <body>
+  <header>
+    <a href="index.html"><button title="Voltar ao início">Home</button></a>
+    <h1 class="text-center"> CADASTRO DE LIVROS </h1>
+    </header>
   <div class="container">
+
     <div class="box">
-
-  
-
-    <h1> CADASTRO DE LIVROS </h1>
       <form ACTION="cadastra-livros.php" method="post">
       <div><br>
         <label for="Titulo"> Titulo:</label>
@@ -35,7 +37,7 @@
        </div>
 
        <div><br>
-        <label for="AnoPublicacao"> Ano Publicação:</label>
+        <label for="AnoPublicacao">Ano Publ:</label>
         <input type="text" id="AnoPublicacao" name="AnoPublicacao"/><br>
        </div>
 
@@ -50,7 +52,7 @@
        </div>
 
       <div><br>
-        <button type="submit"> Cadastrar </button>
+        <button class="btn-centralizar" type="submit"> Cadastrar </button>
       </div>
     </form>
     </div>
