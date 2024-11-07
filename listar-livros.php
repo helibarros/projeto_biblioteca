@@ -12,7 +12,10 @@
         <hr>
     </header>
    <main>
-   <?php
+
+   <div class="container">
+    <div class="box">
+    <?php
     include "config.php";
 
     $sql = "SELECT * FROM livros";
@@ -39,6 +42,9 @@
             </tr>
         </table>
     </form>
+    </div>
+   </div>
+   
    </main>
 </body>
 </html>

@@ -12,6 +12,9 @@
         <hr>
     </header>
    <main>
+
+   <div class="container">
+    <div class="box">
    <?php
     include "config.php";
 
@@ -39,6 +42,9 @@
             </tr>
         </table>
     </form>
+    </div>
+   </div>
    </main>
+
 </body>
 </html>

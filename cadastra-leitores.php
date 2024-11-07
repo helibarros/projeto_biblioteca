@@ -10,7 +10,7 @@
 </head>
 <body>
 
-<h1>CONFIRMAÇÃO DE CADASTRO</h1>
+<h1 class="text-center">CONFIRMAÇÃO DE CADASTRO</h1>
 
 <?php
 include "config.php";
@@ -47,7 +47,7 @@ if($query){
     echo " CELULAR: ". $celular."<br>";
     echo " E-MAIL: ". $email."<br>";
     echo "RA:".  $ra."<br>";
-    echo "ENDEREÇO: " . $endereco. ", " . $num_end."<br>";
+    echo "ENDEREÇO: " . $endereco. " " . $num_end."<br>";
     echo " BAIRRO: " . $bairro."<br>";
     echo "CIDADE ". $cidade."<br>";
     echo "</p>";

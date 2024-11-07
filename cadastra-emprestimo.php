@@ -13,6 +13,8 @@
         <h3 class="text-center">CADASTRO DE EMPRÉSTIMOS</h3>
         <hr>
     </header>
+    <div class="container">
+    <div class="box">
     <main>
         <?php
         // Inclui o arquivo de configuração
@@ -43,7 +45,7 @@
             echo "<p>Erro: Livro não encontrado!</p>";
         } else {
             // Insere o empréstimo no banco de dados
-            $sql = "INSERT INTO emprestimos (CodLeitor, CodLivro, Data_Emprestimo, Data_Devolucao) 
+            $sql = "INSERT INTO emprestimos (CodLeitor, CodLivro, Data_Emprestimo, Data_Devolução) 
                     VALUES ($codleitor, $codlivro, '$data_emprestimo', '$data_devolucao')";
 
             if (mysqli_query($conn, $sql)) {
@@ -58,5 +60,7 @@
         <br>
         <a href="index.html"><button>Voltar para a página inicial</button></a>
     </main>
+    </div>
+    </div>
 </body>
 </html>

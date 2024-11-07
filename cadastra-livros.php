@@ -9,7 +9,7 @@
 </head>
 <body>
 
-<h1>CONFIRMAÇÃO DE CADASTRO</h1>
+<h1 class="text-center">CONFIRMAÇÃO DE CADASTRO</h1>
 <?php
 include "config.php";
 if (!$conn){
@@ -53,6 +53,7 @@ if($query){
  echo "<a href='index.html'><button title='Home pago'>Voltar</button></a>";
  echo "</center>";
 }
- ?>      
+ ?>   
+   
 </body>
 </html>

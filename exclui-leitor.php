@@ -11,6 +11,8 @@
         <h3 class="text-center">CADASTRO DE LEITORES</h3>
         <hr>
 </header>
+<div class="container">
+<div class="box">
 <?php
 // Conexão com o banco de dados
 include "config.php";
@@ -33,6 +35,8 @@ if (isset($_GET['codleitor'])) {
 
 $conn->close();
 ?>
+</div>
+</div>
 
 </body>
 </html>

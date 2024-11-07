@@ -5,12 +5,15 @@
     <link rel="stylesheet" href="style-todos.css">
 </head>
 <body>
+
 <header>
         <a href="index.html"><button title="Voltar ao início">Home</button></a>
         <h1 class="text-center">SISTEMA BIBLIOTECA</h1>
         <h3 class="text-center">CADASTRO DE LIVROS</h3>
         <hr>
 </header>
+<div class="container">
+<div class="box">
 <?php
 // Conexão com o banco de dados
 include "config.php";
@@ -33,6 +36,7 @@ if (isset($_GET['codlivro'])) {
 
 $conn->close();
 ?>
-
+</div>
+</div>
 </body>
 </html>
