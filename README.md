@@ -8,7 +8,7 @@ Tecnologias Utilizadas:
 Linguagens: PHP, HTML, CSS/
 Ambiente de Desenvolvimento (IDE): VS Code/
 Banco de Dados: MySQL/
-Controle de Versão: Git e GitHub/
+Controle de Versão: GitHub.
 
 Funcionalidades:
 Cadastro de Livros/
@@ -16,7 +16,7 @@ Exclusão de Livros/
 Pesquisa de Livros/
 Cadastro de Leitores/
 Exclusão de Leitores/
-Pesquisa de Leitores/
+Pesquisa de Leitores.
 
 
 
