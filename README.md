@@ -8,7 +8,7 @@ Tecnologias Utilizadas:
 Linguagens: PHP, HTML, CSS
 Ambiente de Desenvolvimento (IDE): VS Code
 Banco de Dados: MySQL
-Controle de Versão: GitHub
+Controle de Versão: GitHub 
 
 Funcionalidades:
 
