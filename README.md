@@ -6,25 +6,17 @@ O projeto Biblioteca é uma aplicação desenvolvida para facilitar a administra
 Tecnologias Utilizadas:
 
 Linguagens: PHP, HTML, CSS
-
 Ambiente de Desenvolvimento (IDE): VS Code
-
 Banco de Dados: MySQL
-
 Controle de Versão: GitHub
 
 Funcionalidades:
 
 Adicionar Novos Livros
-
 Remover Livros
-
 Realizar Pesquisa de Livros
-
 Registrar Novos Leitores
-
 Excluir Leitores
-
 Buscar Leitores Registrados
 
 
