@@ -1,7 +1,8 @@
 # projeto_biblioteca
 
 Descrição do Projeto:
-O projeto Biblioteca é uma aplicação desenvolvida para facilitar o gerenciamento de livros e leitores em uma biblioteca. O sistema permite a administração eficiente de livros e leitores, oferecendo funcionalidades como cadastro, exclusão e busca.
+O projeto Biblioteca é uma aplicação desenvolvida para facilitar o gerenciamento de livros e leitores em uma biblioteca. 
+O sistema permite a administração eficiente de livros e leitores, oferecendo funcionalidades como cadastro, exclusão e busca.
 
 Tecnologias Utilizadas:
 Linguagens: PHP, HTML, CSS
